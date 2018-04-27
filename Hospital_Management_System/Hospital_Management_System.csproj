@@ -74,6 +74,12 @@
     <Compile Include="MasterEntry.Designer.cs">
       <DependentUpon>MasterEntry.cs</DependentUpon>
     </Compile>
+    <Compile Include="MecCategory.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MecCategory.Designer.cs">
+      <DependentUpon>MecCategory.cs</DependentUpon>
+    </Compile>
     <Compile Include="MedicineModule.cs">
       <SubType>UserControl</SubType>
     </Compile>
