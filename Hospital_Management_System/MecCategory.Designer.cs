@@ -66,6 +66,7 @@
             this.btEdit.TabIndex = 120;
             this.btEdit.Text = "Edit";
             this.btEdit.UseVisualStyleBackColor = true;
+            this.btEdit.Click += new System.EventHandler(this.btEdit_Click);
             // 
             // label7
             // 
@@ -111,6 +112,7 @@
             this.btSave.TabIndex = 114;
             this.btSave.Text = "Save";
             this.btSave.UseVisualStyleBackColor = true;
+            this.btSave.Click += new System.EventHandler(this.btSave_Click);
             // 
             // btNew
             // 
@@ -120,6 +122,7 @@
             this.btNew.TabIndex = 113;
             this.btNew.Text = "New";
             this.btNew.UseVisualStyleBackColor = true;
+            this.btNew.Click += new System.EventHandler(this.btNew_Click);
             // 
             // cmbCountry
             // 
