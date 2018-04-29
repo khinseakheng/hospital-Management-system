@@ -148,6 +148,9 @@
     <EmbeddedResource Include="MasterEntry.resx">
       <DependentUpon>MasterEntry.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MecCategory.resx">
+      <DependentUpon>MecCategory.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MedicineModule.resx">
       <DependentUpon>MedicineModule.cs</DependentUpon>
     </EmbeddedResource>

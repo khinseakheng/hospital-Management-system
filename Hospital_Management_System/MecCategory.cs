@@ -16,5 +16,11 @@ namespace Hospital_Management_System
         {
             InitializeComponent();
         }
+
+        private void MecCategory_Load(object sender, EventArgs e)
+        {
+            listViewShow lst = new listViewShow();
+            lst.ShowData("select Category from tbMecategory", "Category", lstView);
+        }
     }
 }

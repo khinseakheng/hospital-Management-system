@@ -37,5 +37,10 @@ namespace Hospital_Management_System
         {
             medicineModule1.BringToFront();
         }
+
+        private void btMeCategory_Click(object sender, EventArgs e)
+        {
+            mecCategory1.BringToFront();
+        }
     }
 }

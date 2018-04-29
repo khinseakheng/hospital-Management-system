@@ -39,6 +39,7 @@
             this.roomModule1 = new Hospital_Management_System.RoomModule();
             this.serviceModule1 = new Hospital_Management_System.ServiceModule();
             this.medicineModule1 = new Hospital_Management_System.MedicineModule();
+            this.mecCategory1 = new Hospital_Management_System.MecCategory();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -83,6 +84,7 @@
             this.btMeCategory.TabIndex = 3;
             this.btMeCategory.Text = "Medecine Category";
             this.btMeCategory.UseVisualStyleBackColor = true;
+            this.btMeCategory.Click += new System.EventHandler(this.btMeCategory_Click);
             // 
             // btMedecine
             // 
@@ -142,10 +144,18 @@
             this.medicineModule1.Size = new System.Drawing.Size(834, 518);
             this.medicineModule1.TabIndex = 5;
             // 
+            // mecCategory1
+            // 
+            this.mecCategory1.Location = new System.Drawing.Point(163, 4);
+            this.mecCategory1.Name = "mecCategory1";
+            this.mecCategory1.Size = new System.Drawing.Size(834, 554);
+            this.mecCategory1.TabIndex = 6;
+            // 
             // MasterEntry
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.mecCategory1);
             this.Controls.Add(this.medicineModule1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.roomModule1);
@@ -171,5 +181,6 @@
         private RoomModule roomModule1;
         private ServiceModule serviceModule1;
         private MedicineModule medicineModule1;
+        private MecCategory mecCategory1;
     }
 }
